@@ -1,4 +1,4 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css") layer(framework);
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
 .page-wrapper {
@@ -17,4 +17,15 @@ body {
 .link-c {
     align-self: center;
     font-size: 12px;
+}
+.bold {
+    font-family: 'anton', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+
+.col {
+    border: 1px solid blue;
+    min-height: 100px;
 }
