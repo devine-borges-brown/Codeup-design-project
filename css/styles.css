@@ -25,7 +25,29 @@ body {
 }
 
 
-.col {
-    border: 1px solid blue;
-    min-height: 100px;
+/*.col {*/
+/*    border: 1px solid blue;*/
+/*    min-height: 100px;*/
+/*}*/
+
+.lg-circle {
+    min-height: 95px;
+    max-width: 95px;
+    border: 5px solid white;
+}
+
+.badge-row {
+    justify-content: space-evenly;
+}
+.design-bg {
+    background-color: #e6563b;
+}
+.develop-bg {
+    background-color: #eb9d3a;
+}
+.support-bg {
+    background-color: #7cb06c;
+}
+.host-bg {
+    background-color: #00aba9;
 }
