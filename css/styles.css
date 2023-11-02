@@ -88,23 +88,22 @@ img.main-pic {
 .pic-row {
     padding: unset;
     margin: unset;
-    width: inherit;
 }
 .FP {
     font-size: 15px;
     font-family: 'Abel', sans-serif;
 }
-
 @media (max-width: 580px) {
     hr {
         display: none;
     }
     .disappear {
-        font-size: 0px;
+        font-size: 0;
     }
 
     .r-pics {
-        font-size: 0px;
+        font-size: 0;
+
     }
     .admin {
         display: none;
