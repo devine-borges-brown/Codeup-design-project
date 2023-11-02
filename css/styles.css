@@ -30,22 +30,17 @@ body {
     font-family: 'anton', sans-serif;
     font-size: 30px;
     font-weight: 400;
-
 }
-
-
-/*.col {*/
-/*    border: 1px solid blue;*/
-/*    min-height: 100px;*/
-/*    padding: unset;*/
-/*}*/
-
 .lg-circle {
     min-height: 95px;
     max-width: 95px;
     border: 5px solid white;
 }
-
+.sm-circle {
+    height: 18px;
+    width: 18px;
+    color: black;
+}
 .badge-row {
     justify-content: center;
 }
@@ -61,29 +56,13 @@ body {
 .host-bg {
     background-color: #00aba9;
 }
-/*.apple-ipad {*/
-/*    max-height: 200px;*/
-/*}*/
-/*.macbook {*/
-/*    max-height: 200px;*/
-/*}*/
-/*.man {*/
-/*    max-height: 200px;*/
-/*}*/
-/*.security {*/
-/*    max-height: 200px;*/
-/*}*/
-img {
+
+img.main-pic {
     border: 5px solid #e6e6e6;
     max-height: 300px;
     max-width: 300px;
     padding: 0;
 }
-/*.pic-row {*/
-/*    max-width: 55%;*/
-/*    padding: 12px;*/
-/*}*/
-
 .r-pics img {
     max-height: 100px;
     max-width: 100px;
@@ -100,5 +79,10 @@ img {
 
 .lt {
     font-family: 'Abel', sans-serif;
-
+}
+div img.main-pic.man {
+    max-width: 284px;
+    max-height: 300px;
+    padding: unset;
+    margin: unset;
 }
