@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
 * {
-    padding: unset;
+    line-height: unset;
 }
 .page-wrapper {
     display: flex;
@@ -40,6 +40,8 @@ body {
     height: 18px;
     width: 18px;
     color: black;
+    font-family: 'anton', sans-serif;
+    padding: unset;
 }
 .badge-row {
     justify-content: center;
@@ -56,6 +58,12 @@ body {
 .host-bg {
     background-color: #00aba9;
 }
+hr {
+    justify-content: center;
+    width: 100%;
+
+}
+
 
 img.main-pic {
     border: 5px solid #e6e6e6;
