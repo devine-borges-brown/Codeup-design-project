@@ -26,6 +26,12 @@ body {
     font-size: 45px;
     font-weight: 400;
 }
+.bold-l {
+    font-family: 'anton', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+
+}
 
 
 /*.col {*/
@@ -41,7 +47,7 @@ body {
 }
 
 .badge-row {
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .design-bg {
     background-color: #e6563b;
@@ -84,4 +90,15 @@ img {
 }
 .r-pics {
     gap: 35px;
+    font-family: 'anton', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.r-pics .row {
+    flex-wrap: nowrap;
+}
+
+.lt {
+    font-family: 'Abel', sans-serif;
+
 }
