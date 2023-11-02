@@ -43,7 +43,6 @@ body {
     color: black;
     font-family: 'anton', sans-serif;
     padding: unset;
-
 }
 .badge-row {
     justify-content: center;
@@ -63,14 +62,11 @@ body {
 hr {
     justify-content: center;
     width: 100%;
-
 }
-
-
 img.main-pic {
     border: 5px solid #e6e6e6;
-    max-height: 284px;
-    max-width: 284px;
+    height: 200px;
+    width: 345px;
     padding: 0;
 }
 .r-pics img {
@@ -86,27 +82,24 @@ img.main-pic {
 .r-pics .row {
     flex-wrap: nowrap;
 }
-
 .lt {
     font-family: 'Abel', sans-serif;
 }
-div img.main-pic.man {
-    max-width: 300px;
-    max-height: 300px;
-    padding: unset;
-    margin: unset;
-}
-
 .pic-row {
     padding: unset;
     margin: unset;
-
-
+    width: inherit;
 }
-
 .FP {
     font-size: 15px;
     font-family: 'Abel', sans-serif;
-    padding-left: 22px;
-    padding-right: 50px;
+}
+
+@media (max-width: 580px) {
+    hr {
+        display: none;
+    }
+    .disappear {
+        display: none;
+    }
 }
