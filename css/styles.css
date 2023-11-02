@@ -100,6 +100,24 @@ img.main-pic {
         display: none;
     }
     .disappear {
+        font-size: 0px;
+    }
+
+    .r-pics {
+        font-size: 0px;
+    }
+    .admin {
         display: none;
     }
+    .head {
+        display: none;
+    }
+    .ipad {
+        display: none;
+    }
+    .essential {
+        display: flex;
+
+    }
 }
+
