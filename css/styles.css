@@ -51,3 +51,19 @@ body {
 .host-bg {
     background-color: #00aba9;
 }
+
+.apple-ipad {
+    max-height: 200px;
+}
+
+.macbook {
+    max-height: 200px;
+}
+
+.man {
+    max-height: 200px;
+}
+
+.security {
+    max-height: 200px;
+}
