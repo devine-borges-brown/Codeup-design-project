@@ -32,8 +32,9 @@ body {
     font-weight: 400;
 }
 .lg-circle {
-    min-height: 95px;
-    max-width: 95px;
+    font-family: 'anton', sans-serif;
+    min-height: 80px;
+    max-width: 80px;
     border: 5px solid white;
 }
 .sm-circle {
@@ -42,6 +43,7 @@ body {
     color: black;
     font-family: 'anton', sans-serif;
     padding: unset;
+
 }
 .badge-row {
     justify-content: center;
@@ -67,8 +69,8 @@ hr {
 
 img.main-pic {
     border: 5px solid #e6e6e6;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 284px;
+    max-width: 284px;
     padding: 0;
 }
 .r-pics img {
@@ -89,8 +91,22 @@ img.main-pic {
     font-family: 'Abel', sans-serif;
 }
 div img.main-pic.man {
-    max-width: 284px;
+    max-width: 300px;
     max-height: 300px;
     padding: unset;
     margin: unset;
+}
+
+.pic-row {
+    padding: unset;
+    margin: unset;
+
+
+}
+
+.FP {
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+    padding-left: 22px;
+    padding-right: 50px;
 }
