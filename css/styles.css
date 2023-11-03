@@ -93,11 +93,15 @@ img.main-pic {
     font-size: 15px;
     font-family: 'Abel', sans-serif;
 }
+.small-md {
+    margin: 25px 145px 0;
+    gap: 200px;
+}
 @media (max-width: 1101px) {
     img.main-pic {
         padding: 0;
         height: 200px;
-        width: 285px;
+        width: 321px;
         border: 5px solid #e6e6e6 ;
     }
     a img {
@@ -158,7 +162,7 @@ img.main-pic {
         height: 290px;
     }
 }
-@media (max-width: 481px) {
+@media (max-width: 480px) {
     a img {
         height: 105px;
         width: 105px;
@@ -178,6 +182,10 @@ img.main-pic {
     img.main-pic {
         width: 340px;
         height: 290px;
+    }
+    .small-md {
+        margin: 25px 114px 0;
+        gap: 0;
     }
 }
 
