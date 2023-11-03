@@ -123,10 +123,20 @@ img.main-pic {
     .problem {
         flex: 0 0 0;
     }
-    .pic-row col{
-        ;
+}
+@media (max-width: 767px) {
+    .badge-row {
+        padding: 40px 153px 40px 153px;
+    }
+    .pic-row {
+        justify-content: center;
+    }
+    .problem {
+        flex: 0 0 0;
     }
 }
+
+
 @media (max-width: 575px) {
     .badge-row {
         padding: 40px 153px 40px 153px;
