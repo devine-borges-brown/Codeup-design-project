@@ -93,7 +93,7 @@ img.main-pic {
     font-size: 15px;
     font-family: 'Abel', sans-serif;
 }
-@media (max-width: 580px) {
+@media (max-width: 990px) {
     hr {
         display: none;
     }
@@ -119,4 +119,10 @@ img.main-pic {
 
     }
 }
+/*@media (max-width: 770px) {*/
+/*    .badge-row {*/
+/*        style: padding: 90px;*/
+/*    }*/
+/*}*/
+
 
