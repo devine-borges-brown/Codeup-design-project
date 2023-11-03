@@ -93,7 +93,7 @@ img.main-pic {
     font-size: 15px;
     font-family: 'Abel', sans-serif;
 }
-@media (max-width: 1100px) {
+@media (max-width: 1101px) {
     img.main-pic {
         padding: 0;
         height: 200px;
@@ -154,24 +154,6 @@ img.main-pic {
         display: none;
     }
 }
-@media (max-width: 575px) {
-    a img {
-        height: 105px;
-        width: 105px;
-    }
-    .badge-row {
-        padding: 40px 153px 40px 153px;
-    }
-    .disappear {
-        font-size: 0;
-        visibility: hidden;
-    }
-    .problem {
-        flex: 0 0 0;
-    }
-    hr {
-        display: none;
-    }
-}
+
 
 
