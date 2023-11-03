@@ -154,10 +154,31 @@ img.main-pic {
         display: none;
     }
     img.main-pic {
-        width: 500px;
+        width: 400px;
         height: 290px;
     }
 }
-
+@media (max-width: 481px) {
+    a img {
+        height: 105px;
+        width: 105px;
+    }
+    .badge-row {
+        padding: 40px 95px 40px 95px;
+    }
+    .pic-row {
+        justify-content: center;
+    }
+    .problem {
+        flex: 0 0 0;
+    }
+    hr {
+        display: none;
+    }
+    img.main-pic {
+        width: 340px;
+        height: 290px;
+    }
+}
 
 
