@@ -108,6 +108,9 @@ img.main-pic {
         height: 50px;
         width: 50px;
     }
+    .container {
+        max-width: 1030px;
+    }
 }
 @media (max-width: 991px) {
     a img {
