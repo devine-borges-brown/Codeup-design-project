@@ -153,6 +153,10 @@ img.main-pic {
     hr {
         display: none;
     }
+    img.main-pic {
+        width: 500px;
+        height: 290px;
+    }
 }
 
 
