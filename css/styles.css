@@ -46,6 +46,7 @@ body {
 }
 .badge-row {
     justify-content: center;
+    padding: 40px;
 }
 .design-bg {
     background-color: #e6563b;
@@ -99,11 +100,10 @@ img.main-pic {
     }
     .disappear {
         font-size: 0;
+        visibility: hidden;
     }
-
     .r-pics {
         font-size: 0;
-
     }
     .admin {
         display: none;
@@ -116,13 +116,29 @@ img.main-pic {
     }
     .essential {
         display: flex;
-
+    }
+    .badge-row {
+        padding: 40px 135px 40px 135px;
+    }
+    .problem {
+        flex: 0 0 0;
+    }
+    .pic-row col{
+        ;
     }
 }
-/*@media (max-width: 770px) {*/
-/*    .badge-row {*/
-/*        style: padding: 90px;*/
-/*    }*/
-/*}*/
+@media (max-width: 575px) {
+    .badge-row {
+        padding: 40px 153px 40px 153px;
+    }
+
+    .disappear {
+        font-size: 0;
+        visibility: hidden;
+    }
+    .problem {
+        flex: 0 0 0;
+    }
+}
 
 
